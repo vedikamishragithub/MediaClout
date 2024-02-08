@@ -1,0 +1,384 @@
+*{
+    margin: 0px;
+    padding: 0px;
+ 
+}
+.main-page{
+    background-color: rgb(5, 9, 54);
+}
+.container{
+    height: 65px;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+  
+}
+.logo{
+
+    margin-top: .3rem;
+}
+h3{
+    
+    font-size: 1.5rem;
+    margin-top: 0.7rem;
+}
+
+img{
+    height: 45px;
+    width: 20pxs;
+}
+#name{
+    display: flex;
+}
+h3{
+    padding-top: 11px;   
+}
+.header{
+    display: flex;
+    gap: 2px;
+}
+.home{
+    text-decoration: none;
+    color: white;
+}
+
+/* -------------------MAIN PAGGGEE=---------- */
+
+.container-1{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#header p{
+    color: rgb(117, 92, 228);
+    font-family: 'Playfair Display', serif;
+    font-weight: 540;
+    font-size: 60px;
+    width: 600px;
+    text-align: center;
+    margin-top: 3rem;
+}
+#span{
+    text-decoration:none;
+}
+
+hr {  
+    margin-top: 20px;
+    height: 2px;  
+    background-color:white;  
+    border: none;  
+} 
+
+#form{
+
+    color: white;
+    text-align: center;
+    width: 30rem;
+    margin-bottom: 0px;
+    padding: 20px;
+   
+}
+input {
+    background-color: transparent;
+    border: 0px solid;
+    height: 20px;
+    width: 300px;
+    color: #CCC;
+}
+
+#name{
+    margin-bottom: 10px;  
+    margin-top: 10px;
+    border-bottom: 1px solid #ccc;
+    color: white;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.submit{
+    background-color: rgb(5, 9, 54);
+    border: 4px solid white;
+    height: auto;
+    width: 180px;
+    color: white;
+    border-radius: 25px;
+    font-size: 15px;    
+    padding:.3rem;    
+    padding-left: 1rem;
+    padding-right: 1rem;
+   
+}
+
+
+/* -------Second-Page----------- */
+
+
+.container-2{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+.title{
+    margin-top: 30px;
+    height: auto;
+    width: auto;
+   
+}
+.reason{
+    height: auto;
+    width: 70rem;
+    
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    padding-top: 40px;
+   
+}
+.reason-item{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+
+
+}
+.title >p{
+    font-size: 50px;
+    font-weight: 700;
+}
+#reason-item-1{  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+
+}
+
+#reason-item-1 > img{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+
+}
+#reason-item-1 > p{
+ 
+   
+    text-align: center;
+    padding-top: 10px;
+}
+#reason-item-1 >h4{
+   
+    text-align: left;
+    padding-top: 10px;
+}
+
+#reason-item-2{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+
+}
+
+#reason-item-2 >img{
+    margin-top: 25px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+
+}
+#reason-item-2 >p{
+ 
+    
+    text-align: center;
+    padding-top: 10px;
+}
+#reason-item-2 >h4{
+    
+    text-align: left;
+    padding-top: 20px;
+}
+
+
+#reason-item-3{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+
+}
+
+#reason-item-3 >img{
+    margin-top: 40px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+
+}
+#reason-item-3 >p{
+ 
+    
+    text-align: center;
+    padding-top: 10px;
+}
+#reason-item-3 >h4{    
+    text-align: left;
+    padding-top: 20px;
+}
+
+
+
+
+/* --------Third Page------------- */
+
+
+.container-3{
+    height: auto;
+    width: auto;
+    background-color: rgb( 86, 50, 201 );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.con-3-item-1{
+    margin-top: 30px;
+    padding: 40px;
+    font-weight: 700;
+    color: white;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+span{
+    text-decoration: underline;
+}
+
+
+
+.con-3-item-2{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+
+/* Circle and second part of section of last page */
+
+
+.con-3-item-2-1{
+    background-color: rgb( 86, 50, 201 );
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+
+}
+.month{
+    background-color: rgb(217, 85, 175);   
+    width: 200px;
+    border-radius: 50%;
+    line-height: 200px;
+    text-align: center;
+    align-items: center;
+    font-size: 32px;
+}
+
+.para{
+    color: white;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.con-3-item-2-2{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.con-3-item-2-3{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/* Circle and third part of section of last page */
+
+.con-3-item-3{
+ 
+    font-size: 60px;
+    margin-top: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+ 
+}
+#button-con-3{
+    background-color: rgb(86, 50, 201);
+    margin-top: 30px;
+    border: 4px solid black;
+    box-sizing: border-box;
+    border-radius: 25px;
+    height: 50px;
+    width: 140px;
+    padding: 6px;
+    color: white;
+    font-size: 13px;
+   
+  
+
+}
+
+
+/* footer */
+.container-4{
+    width: auto;
+    height: auto;
+    background-color: rgb(141, 141, 141);
+    display:flex ;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li{
+    list-style-type: none;
+    margin: 1rem;
+    color: white;
+}
+
+.btn{
+    text-decoration: none;
+    color: #CCC;
+}
